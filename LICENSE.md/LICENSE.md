@@ -2,14 +2,9 @@
 ## [Laravel SendCloud 发送邮件][1]
 
 
-  [1]: https://github.com/NauxLiu/Laravel-SendCloud
-
  1. composer 安装
  
- ```
- composer require naux/sendcloud
- 
- ```
+ > composer require naux/sendcloud
  
  2. 修改 `config/app.php`，添加服务提供者
  
@@ -99,7 +94,7 @@ public function send(Request $request)
 }
 ```
 
-## [laracasts/flash插件提示信息](https://github.com/laracasts/flash "laracasts/flash插件提示信息")
+## [laracasts/flash插件提示信息](https://github.com/laracasts/flash "laracasts/flash插件提示信息") 或者 [laravelChen/myflash][2]
 
 1. composer 安装
 
@@ -161,3 +156,6 @@ public function send(Request $request)
 }
 ```
 
+
+  [1]: https://github.com/NauxLiu/Laravel-SendCloud
+  [2]: https://github.com/LaravelChen/myflash
