@@ -6,7 +6,10 @@
 
  1. composer 安装
  
- > composer require naux/sendcloud
+ ```
+ composer require naux/sendcloud
+ 
+ ```
  
  2. 修改 `config/app.php`，添加服务提供者
  
